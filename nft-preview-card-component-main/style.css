@@ -1,27 +1,22 @@
 * {
     font-family: 'Outfit';
-
 }
 
-h2 {
-    color: hsl(0, 0%, 100%)
-    
+.atitle {
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    margin-left: 24px;
 }
 
-#maindiv {
-    /* max-width: 301;
-    max-height: 501px;
-    display: flex;
-    justify-content: center; */
-}
-
-div {
+.maindiv {
     max-width: 301;
     max-height: 501px;
-    display: flex;
-    justify-content: center;
-    
+    position: relative;
+    top: 60px;
+    left: 500px
 }
+    
 
 body {
     max-width: 1440px;
@@ -33,36 +28,78 @@ section {
     height: 600px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 15px;
+    box-shadow: 10px 15px 15px rgb(11, 2, 34)
     
 }
 
 img {
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 23px;
+    margin-left: 27px;
     border-radius: 15px;
-    
-    
+    position: relative;  
 }
 
-p {
+.abody {
     color: hsl(215, 51%, 70%);
+    position: relative;
+    top: 55px;
     font-size: 18px;
-    margin-left: 20px;
+    margin-left: 24px;
 }
 
-#span1 {
-    color: hsl(178, 100%, 50%)
-    
+.span1 {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    position: relative;
+    top: 65px;
+    left: 45px;
+    /* border: none; */
 }
 
-#span2  {
+.span2  {
     color: hsl(215, 51%, 70%);
+    margin-left: 240px;
+    margin-top: -45px;
+    border: none   
 }
 
 .name {
     color: hsl(215, 51%, 70%);
+
 }
 
 .ntitle {
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
+}
+
+.bottomdiv {
+    position: relative;
+    top: 50px;
+    left: 100px;
+    
+}
+.shifter {
+    position: relative;
+    top: -10px;
+}
+.fav {
+    position: relative;
+    top: -20px;
+    left: 160px;
+    
+}
+.eth {
+    display: flex;
+    position: relative;
+    top: 23px;
+    
+}
+.line {
+    color: hsl(215, 51%, 70%);
+    top: 20px;
+    position: relative;   
+}
+
+@media (min-width: 475px) {
+    
 }
